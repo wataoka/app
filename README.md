@@ -60,6 +60,13 @@ print(z)
 |/|徐算|
 |%|剰余|
 
+### ■ リスト
+```swift
+var list = [4, 2, 6, 13, 1]
+print(list)
+print(list[3])
+```
+
 
 
 ### ■ if文
@@ -81,6 +88,7 @@ if x == y {
 |!=|ノットイコール|
 |&&|ビットAND|
 |\|\||ビットOR|
+|!|論理NOT|
 |<|小なり|
 |>|大なり|
 |<=|小なりイコール|
@@ -93,6 +101,49 @@ xとyが同じならば `xは普通`
 と出力するプログラムを組め.  
 
 ※模範解答は`01.swift`
+
+### swich文
+```swift
+var x = 2
+switch x{
+case 1:
+    print("xは1です")
+case 2:
+    print("xは2です")
+case 3:
+    print("xは3です")
+default:
+    print("わかりません")
+}
+```
+
+### 問題2
+`order`に格納された文章が  
+`カレー`なら, `お時間少々かかりますがよろしいでしょうか`と出力.  
+`牛丼`なら, `並でよろしいでしょうか`と出力.  
+`コーヒー`なら, `ホットとアイスがございます`と出力  
+それ以外を入力された場合は`メニューにない商品です`と出力するプログラムをswitch文を用いて組め.  
+
+※模範解答は`02.swift`
+
+### for文
+```swift
+var list = [6, 2, 3, 4, 1]
+for i in list{
+    print(i)
+}
+```
+
+```swift
+for i in 1..<4{
+    print(i)
+}
+```
+
+### 問題3
+(1)1~99までの自然数の中で3の倍数の数字をlist1に格納せよ.
+(2)1~200までの自然数の中で3で割ると1余る数字をlist2に格納せよ.
+(3)3桁の自然数の中で5で割りきれて, 3で割り切れない数字をlist3に格納せよ.
 
 ### ■ 変数と定数
 ```swift
@@ -126,6 +177,42 @@ var x: Int = "Hello"
 ```
 
 
+### ■関数
+```swift
+func add(x:Int, y:Int) -> Int {
+    return x + y
+}
+
+var z = add(x:1, y:2)
+print(z)
+```
+
+### 問題4
+(1)整数が格納されたリスト`list`を受け取り, 合計値を返す関数を作れ.
+(2)整数が格納されたリスト`list`を受け取り, 平均値を返す関数を作れ.
+(3)整数が格納されたリスト`list`を受け取り, 分散を返す関数を作れ.
+
+### ■ オブジェクト指向プログラミング
+ここを理解することが最重要にして最難関.
+```swift
+/* モンスタークラス */
+class Monster {
+    var level = 1       // レベル
+    var name: String?   // 名前
+    // 説明
+    func description() -> String {
+        if name == nil  {
+            return "不明 Lv.\(level)"
+        } else {
+            return "\(name!) Lv.\(level)"
+        }
+    }
+}
+
+slime = Monster()
+print(slime.level)
+slime.discription()
+```
 ### ■リンク集
 #### swift
 - [Apple公式ページ](https://www.apple.com/jp/swift/)
