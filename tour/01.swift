@@ -1,4 +1,8 @@
 var x = 3
-var y = 4
-var z = x * y
-print(z)
+var y = 3
+
+if x == y {
+    print("xとyは同じです")
+} else {
+    print("xとyは異なります")
+}

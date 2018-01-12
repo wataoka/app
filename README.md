@@ -30,35 +30,80 @@
 
 
 ## swiftプログラミング
-### ■ No.1
+### ■ 標準出力
 ```swift
 print("Hello World!")
 print(3)
 ```
 
-### ■ No.2
+### ■ 変数
 ```swift
 var x = 3
+var sentence = "Hello Japan!"
 print(x)
+print(sentence)
 ```
 
-### ■ No.3
+### ■ 計算
 ```swift
 var x = 3
 var y = 4
-var z = x * y
+var z = x + y
 print(z)
 ```
+#### 演算子一覧
+・四則演算
 
-### ■ No.4
+|演算子|説明|
+|:----|:---|
+|+|加算|
+|-|減算|
+|*|乗算|
+|/|徐算|
+
+・よく使う演算子
+
+|演算子|説明|
+|:----|:---|
+|%|剰余|
+|&|ビットAND|
+|`|`|ビットOR|
+|/|徐算|
+
+
+### ■ if文
+```swift
+var x = 3
+var y = 3
+
+if x == y {
+    print("xとyは同じです")
+} else {
+    print("xとyは異なります")
+}
+```
+
+
+
+### ■ 問題1
+xがyよりも大きければ `xは大きい`  
+xがyよりも小さければ `xは小さい`  
+xとyが同じならば `xは普通`  
+と出力するプログラムを組め.  
+
+### ■ 変数と定数
 ```swift
 var x = 2
 let y = 3
+
+x = 4
+y = 5
 ```
 
-### ■ No.5
+### ■ 型
 ```swift
-
+var s: Int = 3
+var sentence: String = "Hello"
 ```
 
 #### 型一覧
@@ -71,6 +116,12 @@ let y = 3
 | 文字列     | String    | 文章            |
 | 文字       | Character | 一文字だけ      |
 | Bool型     | Bool      | trueまたはfalse |
+
+### ■ 間違った型を入れると...
+```swift
+var x: Int = "Hello"
+```
+
 
 ### ■リンク集
 #### swift
