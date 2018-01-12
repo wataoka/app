@@ -61,7 +61,7 @@ let y = 3
 
 ```
 
-型一覧
+#### 型一覧
 
 | 型一覧     | 指定名    | 備考            |
 | :----      | :----     | :---            |
@@ -74,17 +74,17 @@ let y = 3
 
 ### ■リンク集
 #### swift
-[Apple公式ページ](https://www.apple.com/jp/swift/)
-[Wikipedia](https://ja.wikipedia.org/wiki/Swift_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E))
-[公式日本語ドキュメント](https://developer.apple.com/jp/documentation/)
-[A Swift Tour](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html)
-[codewars](https://www.codewars.com/)
+- [Apple公式ページ](https://www.apple.com/jp/swift/)
+- [Wikipedia](https://ja.wikipedia.org/wiki/Swift_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E))
+- [公式日本語ドキュメント](https://developer.apple.com/jp/documentation/)
+- [A Swift Tour](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html)
+- [codewars](https://www.codewars.com/)
 
 #### UIKit
-[公式ドキュメント](https://developer.apple.com/documentation/uikit)
-[Swift Docs](https://sites.google.com/a/gclue.jp/swift-docs/)
-[Swiftで0からスタートするiOS~UIKitの使い方~](https://www.slideshare.net/kenjitanaka58/swift0iosuikit)
+- [公式ドキュメント](https://developer.apple.com/documentation/uikit)
+- [Swift Docs](https://sites.google.com/a/gclue.jp/swift-docs/)
+- [Swiftで0からスタートするiOS~UIKitの使い方~](https://www.slideshare.net/kenjitanaka58/swift0iosuikit)
 
 #### Xcode
-(Apple公式ページ)[https://developer.apple.com/jp/xcode/]
-(Wikipedia)[https://ja.wikipedia.org/wiki/Xcode]
+- [Apple公式ページ](https://developer.apple.com/jp/xcode/)
+- [Wikipedia](https://ja.wikipedia.org/wiki/Xcode)
