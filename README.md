@@ -187,9 +187,12 @@ var z = add(x:1, y:2)
 print(z)
 ```
 
-### 問題4
+### 問題4  
+
 (1)整数が格納されたリスト`list`を受け取り, 合計値を返す関数を作れ.  
+
 (2)整数が格納されたリスト`list`を受け取り, 平均値を返す関数を作れ.  
+
 (3)整数が格納されたリスト`list`を受け取り, 分散を返す関数を作れ.  
 
 ### ■ オブジェクト指向プログラミング
@@ -225,7 +228,7 @@ slime.discription()
 #### UIKit
 - [公式ドキュメント](https://developer.apple.com/documentation/uikit)
 - [Swift Docs](https://sites.google.com/a/gclue.jp/swift-docs/)
-- [Swiftで0からスタートするiOS~UIKitの使い方~](https://www.slideshare.net/kenjitanaka58/swift0iosuikit)
+- [Swiftで0からスタートするiOS](https://www.slideshare.net/kenjitanaka58/swift0iosuikit)
 
 #### Xcode
 - [Apple公式ページ](https://developer.apple.com/jp/xcode/)
