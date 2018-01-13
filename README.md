@@ -220,6 +220,7 @@ slime.discription()
 - [公式日本語ドキュメント](https://developer.apple.com/jp/documentation/)
 - [A Swift Tour](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html)
 - [codewars](https://www.codewars.com/)
+- [swift4 入門書](http://swift.tecc0.com/)
 
 #### UIKit
 - [公式ドキュメント](https://developer.apple.com/documentation/uikit)
