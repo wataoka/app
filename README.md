@@ -198,7 +198,7 @@ print(z)
 /* モンスタークラス */
 class Monster {
     var level = 1       // レベル
-    var name: String?   // 名前
+    var name: String = 'noname'   // 名前
     // 説明
     func description() -> String {
         if name == nil  {
